@@ -16,5 +16,5 @@ schema:                            # required
           pattern: ([0-9]{1,3}\.){3}[0-9]{1,3}($|/(16|24))
         dns_hostname:               # parameter
           type: string
-          description: "The hostname for the Route53 Hosted Zone"
+          description: "The hostname for the Route53 Hosted Zone" #
           default: protonworkshop.hosted.local
